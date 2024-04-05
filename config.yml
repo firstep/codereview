@@ -1,0 +1,21 @@
+gitlab:
+  endpoint: http://gitlab.xxx.com/api/v4
+  # Personal access token
+  token: xxxxxx
+  groupId: 0
+  timePattern: 2006-01-02T15:04:05.000Z07:00
+
+
+smtp:
+  host: mail.xxx.com
+  port: 25
+  username: xxxxxx
+  password: xxxxxx
+  subject: 【代码检视】CloudEasy代码检视记录
+  sender: no-relpy@xxx.com
+  receivers:
+    - xxx1@mail.com
+    - xxx2@mail.com
+
+task:
+  cron: "0 30 23 * * ?"
